@@ -1,4 +1,4 @@
-# Calculadora Aritmética Simple (Android)
+# Calculadora Aritmética Simple
 
 Esta es una app Android sencilla que permite realizar operaciones básicas entre dos números.
 
@@ -8,7 +8,7 @@ Esta es una app Android sencilla que permite realizar operaciones básicas entre
 - **Número 1 y Número 2:**
     - `TextView` con texto "Número 1:" y "Número 2:" respectivamente.
     - `EditText` asociado a cada uno:
-        - Hint: "Introduzca un número entero".
+        - Hint: "Introduzca un número".
         - Alineado a la derecha.
         - Acepta números con decimales y signo.
         - Inicialmente vacío.
@@ -37,19 +37,31 @@ Esta es una app Android sencilla que permite realizar operaciones básicas entre
 - Android Studio
 - Java
 - XML (para layouts)
-- API mínima: 21+ (Android 5.0)
+- API mínima: 28+ (Android 8.1)
 
 ## 📂 Estructura del proyecto
 
 ```
-/app/src/main/java/...
+/app/src/main/java/.../MainActivity.java (funcionalidad básica)
+/app/src/main/java/.../MainActivityV2.java (refactorización de código, incluye validación de campos con Pair)
+/app/src/main/java/.../MainActivityV3.java (refactorización de código, centralización de código único método operacinal)
 /app/src/main/res/layout/activity_main.xml
 README.md
 ```
 
 ## 📸 Capturas de pantalla
 
-*(Puedes agregar imágenes aquí usando Markdown si las tienes)*
+### Pantalla principal
+
+![Pantalla principal](screenshots/inicio.png)
+
+### Resultado de una operación
+
+![Resultado](screenshots/normal.png)
+
+### Error en la operación
+
+![Error](screenshots/error.png)
 
 ## 📄 Licencia
 
