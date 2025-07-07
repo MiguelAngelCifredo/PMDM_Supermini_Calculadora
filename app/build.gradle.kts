@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "dam.example.superminicalculadora"
+    namespace = "dam.pmdm.superminicalculadora"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "dam.example.superminicalculadora"
+        applicationId = "dam.pmdm.superminicalculadora"
         minSdk = 28
         targetSdk = 36
         versionCode = 1

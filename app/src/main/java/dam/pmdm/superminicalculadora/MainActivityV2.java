@@ -1,4 +1,4 @@
-package dam.example.superminicalculadora;
+package dam.pmdm.superminicalculadora;
 
 import android.os.Bundle;
 import android.util.Pair;
