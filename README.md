@@ -30,7 +30,7 @@ Esta es una app Android sencilla que permite realizar operaciones básicas entre
     2. **[ - ]** Resta el segundo número al primero.
     3. **[ x ]** Multiplica ambos números.
     4. **[ / ]** Divide el primer número entre el segundo.
-- El botón **BORRAR** limpia los dos campos de entrada y reinicia el resultado a "0.0".
+- El botón **[BORRAR]** limpia los dos campos de entrada y reinicia el resultado a "0.0".
 
 ## 🛠️ Tecnologías usadas
 
