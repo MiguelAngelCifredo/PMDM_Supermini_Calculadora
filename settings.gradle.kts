@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DAM Supermini Calculadora"
+rootProject.name = "Supermini Calculadora"
 include(":app")

@@ -4,7 +4,7 @@ Esta es una app Android sencilla que permite realizar operaciones básicas entre
 
 ## 📱 Interfaz de Usuario (UI)
 
-- **Padding general:** Todos los componentes están a 20dp hacia el interior.
+- **Padding general:** Todos los componentes están a 30dp hacia el interior.
 - **Número 1 y Número 2:**
     - `TextView` con texto "Número 1:" y "Número 2:" respectivamente.
     - `EditText` asociado a cada uno:
@@ -16,11 +16,14 @@ Esta es una app Android sencilla que permite realizar operaciones básicas entre
     - `TextView` con texto por defecto "0.0".
     - Tamaño de fuente mayor, color naranja, contenido centrado.
 - **Botones de operación:**
+    - Cada `Button` tendrá un color de fondo diferente.
     - Botones con texto "+", "-", "x", "/" respectivamente.
-    - Color de fondo azul, esquinas redondeadas.
+    - Fuente tamaño 20, estilo negrita.
+    - Esquinas redondeadas.
 - **Botón BORRAR:**
-    - Texto "BORRAR".
-    - Fondo rojo, esquinas rectas.
+    - `Button` con texto "BORRAR".
+    - Tamaño completo.
+    - Color de fondo rojo, esquinas rectas.
 
 ## ⚙️ Funcionalidad
 
@@ -46,7 +49,6 @@ Esta es una app Android sencilla que permite realizar operaciones básicas entre
 /app/src/main/java/.../MainActivityV2.java (refactorización de código, incluye validación de campos con Pair)
 /app/src/main/java/.../MainActivityV3.java (refactorización de código, centralización de código único método operacinal)
 /app/src/main/res/layout/activity_main.xml
-README.md
 ```
 
 ## 📸 Capturas de pantalla
@@ -57,7 +59,7 @@ README.md
 
 ### Resultado de una operación
 
-![Resultado](screenshots/normal.png)
+![Operacion](screenshots/operacion.png)
 
 ### Error en la operación
 
